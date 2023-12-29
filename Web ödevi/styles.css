@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    
+    background: url(images/background.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background: #176B87;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: #EEF5FF;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color: #EEF5FF;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 6px 13px;
+
+}
+
+.navbar ul li a:hover{
+    background: #86B6F6;
+    color: #176B87;
+}
+
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+
+}
+
+.center h1{
+    color: #11235A;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900;
+    text-align: center;
+}
+.center h2{
+    color: #EEF5FF;
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.center .buttons{
+    margin: 35px 200px;
+}
+
+.buttons a button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    color: #EEF5FF;
+    margin: 0px 2px;
+    background-color: #11235A;
+    border: solid 1px #EEF5FF;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+}
+
+.buttons a button:hover{
+    background: #86B6F6;
+    color: #11235A;
+}
+
+.header{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    margin-top: 30px;
+}
+
+.header h2{
+    color: #B6FFFA;
+    font-size: 34px;
+    
+}
+
+.main_center{
+    display: flex;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+
+.kart{
+    position: relative;
+    width: 400px;
+    height: 550px;
+    background-color: #EEF5FF;
+    padding: 5px;
+    margin: 0px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);       
+}
+
+.kart img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 2px auto;    
+}
+
+.kart .içerik{
+    text-align:justify;
+}
+
+.kart h3{
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.kart p{
+    margin: 10px 0;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.kart a{
+    display: flex;
+    padding: 8px 15px;
+    background-color: #176B87;
+    color: #EEF5FF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.iletisim-formu {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    
+    transform:translate(0%,25%)
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #176B87;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #11235A;
+  }
